@@ -523,16 +523,10 @@ void intialize() {
 int main() {
     intialize();
  
-
-
     driveForwardP(3*24.0);
     turnLeftP(90);
     driveForwardP(6*24.0);
     turnLeftP(90);
     driveForwardP(3*24.0);
 
-    //while(1) {
-        // Allow other tasks to run
-    //    this_thread::sleep_for(10);
-    //}
 }
